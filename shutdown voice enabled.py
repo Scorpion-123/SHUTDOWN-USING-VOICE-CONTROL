@@ -38,7 +38,7 @@ while True:
     if "no" in command:
         Speak("Thank u sir I will not shut down the computer")
         break
-    if "yes" in command:
+    elif "yes" in command:
         Speak("Shutting down your computer boss")
         os.system("shutdown /s /t 30")
         break
